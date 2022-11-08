@@ -1,9 +1,39 @@
-<Html> <!-- This tag is compulsory for any HTML document. --> 
+<!DOCTYPE html>
+<Html lang="en"> <!-- This tag is compulsory for any HTML document. --> 
 <Head>
 <!-- The Head tag is used to create a title of web page, CSS syntax for a web page, and helps in written a JavaScript code. -->
+    <!-- Required Metasets -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!--Title of Web Page-->
+    <title>Greenfield Impex</title>
 </Head>
 <Body>
 <!-- The Body tag is used to display the content on a web page. In this example we do not specify any content or any tag, so in output nothing will display on the web page. -->
+        <nav class="navbar fixed-top navbar-expand-sm navbar-light bg-light">
+                <a href="index.html" class="navbar-brand mb-0">
+                    <img src="https://static6.depositphotos.com/1005993/633/v/450/depositphotos_6338152-stock-illustration-real-estate-logo.jpg" alt="logo of company" class="d-inline-block align-top" width="50" height="50"/>
+                    <span class="h2">Greenfield Impex</span>
+                </a>
+                <button type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" class="navbar-toggler" aria-controls="navbarNav" aria-expand="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active"><a class="nav-link scrollto active" href="#Home">Home</a></li>
+                        <li class="nav-item active"><a class="nav-link scrollto" href="#AboutUs">About Us</a></li>
+                        <li class="nav-item active"><a class="nav-link scrollto " href="#OurProduct">Our Products</a></li>
+                        <li class="nav-item active"><a class="nav-link scrollto" href="#Contact">Contact</a></li>
+                      </ul>
+                      <i class="bi bi-list mobile-nav-toggle"></i> 
+                </div>
+
+        </nav>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </Body>
 </Html>
 
