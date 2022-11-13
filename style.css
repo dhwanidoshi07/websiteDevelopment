@@ -2,4 +2,6 @@
     margin-left: auto;
     padding:10px;
     }
-
+.hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5))
+    }
