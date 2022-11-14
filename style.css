@@ -1,7 +1,50 @@
+*{
+    margin:0;
+    padding:0;
+}
 .navbar-nav {
     margin-left: auto;
     padding:10px;
     }
 .hero-image {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5))
+    top: 100px;
+    background-color: #000000;
+    background-image:url("random.jpg");
+    /* Set a specific height */
+    height: 100%;
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    }
+.hero-text {
+    text-align: left;
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    color: seagreen;
+    }
+.hero-text button {
+        border: none;
+        outline: 0;
+        display: inline-block;
+        padding: 10px 25px;
+        color: seagreen;
+        background-color: #ddd;
+        text-align: center;
+        cursor: pointer;
+    }
+      
+.hero-text button:hover {
+        background-color: #555;
+        color: white;
+    }
+
+footer 
+    {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
     }
