@@ -13,8 +13,7 @@ body, html {
     padding:10px;
     }
 .hero-image {
-    background-color: #000000;
-    background-image:url('random.jpg');
+    background-color: seagreen;
     /* Set a specific height */
     height: 75%;
     /* Position and center the image to scale nicely on all screens */
@@ -27,9 +26,9 @@ body, html {
     text-align: left;
     position: absolute;
     top: 50%;
-    left: 35%;
+    left: 50%;
     transform: translate(-50%, -50%);
-    color: seagreen;
+    color: white;
     }
 .hero-text button {
         border: none;
@@ -40,6 +39,7 @@ body, html {
         background-color: #ddd;
         text-align: center;
         cursor: pointer;
+        position: absolute;
     }
       
 .hero-text button:hover {
