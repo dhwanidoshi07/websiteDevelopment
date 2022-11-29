@@ -1,4 +1,57 @@
 *{
+    box-sizing: border-box;
+}
+
+.card-body{
+    
+    
+
+    position: absolute;
+    right: 100px;
+    width: 500px;
+    height: 100px;
+    
+
+}
+
+.about{
+    
+   text-align: center;
+   font-size: 1.2em;
+}
+
+
+.whyus{
+
+    text-align: center;
+}
+
+     
+.image{
+
+    
+    position: absolute;
+    color: seagreen;
+    right: 350px;
+    width: 60px;
+    height: 60px;
+    
+    text-align: center;
+
+
+}
+
+
+.text{
+
+    text-align: center;
+}
+
+
+
+
+
+*{
     margin:0;
     padding:0;
     box-sizing: border-box;
