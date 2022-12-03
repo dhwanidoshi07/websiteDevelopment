@@ -16,7 +16,6 @@
 </Head>
 <Body>
 <!-- The Body tag is used to display the content on a web page. In this example we do not specify any content or any tag, so in output nothing will display on the web page. -->
-
     <!--Start Navigation Bar-->
     <nav class="navbar navbar-default fixed-top navbar-expand-sm navbar-light bg-light">
             <a href="index.html" class="navbar-brand mb-0">
@@ -137,7 +136,8 @@
         </div>
     </div>
     </section>
-    <!--End Contact Us-->   
+    <!--End Contact Us-->
+
     <!--Start Footer -->
     <footer class="bg-success text-white pt-5 pb-4">
         <div class="container text-center text-md-left">
