@@ -11,10 +11,13 @@
         die('Connection Failed : '.$conn->connect_error);
     }
     else{
-        $stmt = $conn->prepare("insert into registration(firstName, lastName, emailId, mobileNumber, messageSend) values(?,?,?,?,?)");
+        $stmt = $conn->prepare("insert into registration(firstName, lastName, emailId, mobileNumber, messageSend) values (?,?,?,?,?)");
         $stmt->bind_param("sssis",$firstName, $lastName, $emailId, $mobileNumber, $messageSend);
         $stmt->execute();
-        echo "message sent....";
+        echo "Message sent....";
+        echo "</br>";
+        echo "</br>";
+        echo "<button><a href='index.php'>Return to home page</a></button>";
         $stmt->close();
         $conn->close();
     }

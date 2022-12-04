@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <Html lang="en"> <!-- This tag is compulsory for any HTML document. --> 
 <Head>
@@ -15,7 +16,6 @@
 </Head>
 <Body>
 <!-- The Body tag is used to display the content on a web page. In this example we do not specify any content or any tag, so in output nothing will display on the web page. -->
-
     <!--Start Navigation Bar-->
     <nav class="navbar navbar-default fixed-top navbar-expand-sm navbar-light bg-light">
             <a href="index.html" class="navbar-brand mb-0">
@@ -58,7 +58,7 @@
             <!--Form-->
             <div class="comtact form">
                 <h3>Send A Message</h3>
-                <form action="connect.php" method="post">
+                <form method="post" action="connect.php">
                     <div class="formBox">
                         <div class="row50">
 
