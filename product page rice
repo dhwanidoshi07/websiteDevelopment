@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+   <!-- font awesome cdn link  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+   <!-- custom css file link  -->
+   <link rel="stylesheet" href="css/style.css">
+
+   <!-- custom js file link  -->
+   <script src="js/script.js" defer></script>
+
+</head>
+<body>
+   
+<div class="container">
+
+   <h3 class="title"> RICE </h3>
+
+   <div class="products-container">
+
+      <div class="product" data-name="p-1">
+         <img src="images\idli_rice.jpeg" alt="">
+         <h3>Idli Rice</h3>
+         <div class="price">$2.00</div>
+      </div>
+
+      <div class="product" data-name="p-2">
+         <img src="images\kali_much_rice.jpeg" alt="">
+         <h3>kali_much Rice</h3>
+         <div class="price">$2.00</div>
+      </div>
+
+      <div class="product" data-name="p-3">
+         <img src="images\gujarat_17_rice.jpeg" alt="">
+         <h3>Gujarat_17 Rice</h3>
+         <div class="price">$2.00</div>
+      </div>
+
+      <div class="product" data-name="p-4">
+         <img src="images\steamed_basmati_1401.jpeg" alt="">
+         <h3>Steamed_basmati_1401</h3>
+         <div class="price">$2.00</div>
+      </div>
+
+      <div class="product" data-name="p-5">
+         <img src="images\steamed_sona_masoori_1.jpeg" alt="">
+         <h3>Steamed_sona_masoori_1</h3>
+         <div class="price">$2.00</div>
+      </div>
+      
+      <div class="product" data-name="p-6">
+         <img src="images\wada_surti_kolam.jpeg" alt="">
+         <h3>Wada_surti_kolam</h3>
+         <div class="price">$2.00</div>
+      </div>
+      <div class="product" data-name="p-7">
+         <img src="images\0.jpg" alt="">
+         <h3>Ambemohar Jeera Kalasa Rice</h3>
+         <div class="price">$2.00</div>
+      </div>
+      <div class="product" data-name="p-8">
+         <img src="images\0.jpg" alt="">
+         <h3>Govind Bhog</h3>
+         <div class="price">$2.00</div>
+      </div>
+      <div class="product" data-name="p-9">
+         <img src="images\0.jpg" alt="">
+         <h3>Sona Masoori Raw </h3>
+         <div class="price">$2.00</div>
+      </div>
+      <div class="product" data-name="p-10">
+         <img src="images\0.jpg" alt="">
+         <h3>Red Mata Rice </h3>
+         <div class="price">$2.00</div>
+      </div>
+      <div class="product" data-name="p-11">
+         <img src="images\0.jpg" alt="">
+         <h3>Pooni Raw Rice </h3>
+         <div class="price">$2.00</div>
+      </div>
+      <div class="product" data-name="p-12">
+         <img src="images\0.jpg" alt="">
+         <h3>Pooni Boil Rice </h3>
+         <div class="price">$2.00</div>
+      </div>
+      <div class="product" data-name="p-13">
+         <img src="images\0.jpg" alt="">
+         <h3>Long Grain Rice</h3>
+         <div class="price">$2.00</div>
+      </div>
+      <div class="product" data-name="p-14">
+         <img src="images\0.jpg" alt="">
+         <h3>Raw Basmati Rice - 1121</h3>
+         <div class="price">$2.00</div>
+      </div>
+      <div class="product" data-name="p-15">
+         <img src="images\0.jpg" alt="">
+         <h3>Steamed Basmati Rice - 1121</h3>
+         <div class="price">$2.00</div>
+      </div>
+      <div class="product" data-name="p-16">
+         <img src="images\0.jpg" alt="">
+         <h3>Raw Basmati Rice - 1401 </h3>
+         <div class="price">$2.00</div>
+      </div>
+      <div class="product" data-name="p-17">
+         <img src="images\0.jpg" alt="">
+         <h3>Basmati Rice - 1401 White Sella</h3>
+         <div class="price">$2.00</div>
+      </div>
+      <div class="product" data-name="p-18">
+         <img src="images\0.jpg" alt="">
+         <h3>Basmati Rice - 1401 Yellow Sella </h3>
+         <div class="price">$2.00</div>
+      </div>
+      <div class="product" data-name="p-19">
+         <img src="images\0.jpg" alt="">
+         <h3>Basmati Rice - 1121 Sella</h3>
+         <div class="price">$2.00</div>
+      </div>
+      <div class="product" data-name="p-20">
+         <img src="images\0.jpg" alt="">
+         <h3>Surti Kolam (Gujarat)</h3>
+         <div class="price">$2.00</div>
+      </div>
+      
+
+   </div>
+
+</div>
+
+<div class="products-preview">
+
+   <div class="preview" data-target="p-1">
+  
+      <i class="fas fa-times"></i>
+      <img src="images\idli_rice.jpeg" alt="">
+      <h3>idli_rice</h3>
+      
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+      <div class="price">$2.00</div>
+      
+   
+   </div>
+
+   <div class="preview" data-target="p-2">
+      <i class="fas fa-times"></i>
+      <img src="images\kali_much_rice.jpeg" alt="">
+      <h3>Kali_much Rice</h3>
+      
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+      <div class="price">$2.00</div>
+      
+   </div>
+
+   <div class="preview" data-target="p-3">
+      <i class="fas fa-times"></i>
+      <img src="images\gujarat_17_rice.jpeg" alt="">
+      <h3>gujarat_17 Rice</h3>
+      
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+      <div class="price">$2.00</div>
+      
+   </div>
+
+   <div class="preview" data-target="p-4">
+      <i class="fas fa-times"></i>
+      <img src="images\steamed_basmati_1401.jpeg" alt="">
+      <h3>Steamed_basmati_1401</h3>
+      
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+      <div class="price">$2.00</div>
+      
+   </div>
+
+   <div class="preview" data-target="p-5">
+      <i class="fas fa-times"></i>
+      <img src="images\steamed_sona_masoori_1.jpeg" alt="">
+      <h3>Steamed_sona_masoori_1</h3>
+      
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+      <div class="price">$2.00</div>
+      
+   </div>  
+   <div class="preview" data-target="p-6">
+      <i class="fas fa-times"></i>
+      <img src="images\wada_surti_kolam.jpeg" alt="">
+      <h3>Wada_surti_kolam</h3>
+      
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+      <div class="price">$2.00</div>
+      
+   </div>
+   <div class="preview" data-target="p-7">
+      <i class="fas fa-times"></i>
+      <img src="images\0.jpg" alt="">
+      <h3>Ambemohar - Jeera Kalasa Rice </h3>
+     
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+      <div class="price">$2.00</div>
+      
+   </div>
+   <div class="preview" data-target="p-8">
+      <i class="fas fa-times"></i>
+      <img src="images\0.jpg" alt="">
+      <h3>Govind Bhog</h3>
+      
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+      <div class="price">$2.00</div>
+      
+   </div>
+   <div class="preview" data-target="p-9">
+      <i class="fas fa-times"></i>
+      <img src="images\0.jpg" alt="">
+      <h3>Sona Masoori Raw </h3>
+     
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+      <div class="price">$2.00</div>
+      
+   </div>
+   <div class="preview" data-target="p-10">
+      <i class="fas fa-times"></i>
+      <img src="images\0.jpg" alt="">
+      <h3>Red Mata Rice </h3>
+    
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+      <div class="price">$2.00</div>
+      
+   </div>
+   <div class="preview" data-target="p-11">
+      <i class="fas fa-times"></i>
+      <img src="images\0.jpg" alt="">
+      <h3>Pooni Raw Rice </h3>
+      
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+      <div class="price">$2.00</div>
+      
+   </div>
+   <div class="preview" data-target="p-12">
+      <i class="fas fa-times"></i>
+      <img src="images\0.jpg" alt="">
+      <h3>Pooni Boil Rice </h3>
+     
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+      <div class="price">$2.00</div>
+      
+   </div>
+   <div class="preview" data-target="p-13">
+      <i class="fas fa-times"></i>
+      <img src="images\0.jpg" alt="">
+      <h3>Long Grain Rice </h3>
+     
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+      <div class="price">$2.00</div>
+      
+   </div>
+   <div class="preview" data-target="p-14">
+      <i class="fas fa-times"></i>
+      <img src="images\0.jpg" alt="">
+      <h3>Raw Basmati Rice - 1121</h3>
+     
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+      <div class="price">$2.00</div>
+      
+   </div>
+   <div class="preview" data-target="p-15">
+      <i class="fas fa-times"></i>
+      <img src="images\0.jpg" alt="">
+      <h3>Steamed Basmati Rice - 1121</h3>
+     
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+      <div class="price">$2.00</div>
+      
+   </div>
+   <div class="preview" data-target="p-16">
+      <i class="fas fa-times"></i>
+      <img src="images\0.jpg" alt="">
+      <h3>Raw Basmati Rice - 1401 </h3>
+     
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+      <div class="price">$2.00</div>
+      
+   </div>
+   <div class="preview" data-target="p-17">
+      <i class="fas fa-times"></i>
+      <img src="images\0.jpg" alt="">
+      <h3>Basmati Rice - 1401 White Sella </h3>
+     
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+      <div class="price">$2.00</div>
+      
+   </div>
+   <div class="preview" data-target="p-18">
+      <i class="fas fa-times"></i>
+      <img src="images\0.jpg" alt="">
+      <h3>Basmati Rice - 1401 Yellow Sella </h3>
+     
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+      <div class="price">$2.00</div>
+      
+   </div>
+   <div class="preview" data-target="p-19">
+      <i class="fas fa-times"></i>
+      <img src="images\0.jpg" alt="">
+      <h3>Basmati Rice - 1121 Sella</h3>
+     
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+      <div class="price">$2.00</div>
+      
+   </div>
+   <div class="preview" data-target="p-20">
+      <i class="fas fa-times"></i>
+      <img src="images\0.jpg" alt="">
+      <h3>Surti Kolam (Gujarat)</h3>
+     
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+      <div class="price">$2.00</div>
+      
+   </div>
+   
+   
+   
+
+</div>
+
+</body>
+</html>
