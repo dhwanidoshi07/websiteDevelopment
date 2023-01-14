@@ -1,3 +1,39 @@
+.box {
+  display: flex;
+  top: 80px;
+  position: relative;
+  padding-top: 30px;
+  border-top: thin solid black;
+  border-bottom: thin solid black;
+  border-right: thin solid black;
+  border-left: thin solid black;
+}
+
+.box1 {
+  padding-left: 300px;
+  padding-right: 30px;
+  width: 630px;
+  flex-direction: column;
+  align-self: flex-start;
+}
+
+.smalltitle2 {
+  border-bottom: medium solid black;
+  background:url(8.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width:100%;
+  height: 1000px;
+}
+
+
+
+
+
+
+
+
+
 *{
   box-sizing: border-box;
 }
@@ -13,6 +49,7 @@
   
 
 }
+
 
 
 
