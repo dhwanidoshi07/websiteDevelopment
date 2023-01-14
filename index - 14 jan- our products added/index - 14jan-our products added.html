@@ -1,0 +1,777 @@
+
+<!DOCTYPE html>
+<Html lang="en"> <!-- This tag is compulsory for any HTML document. --> 
+<Head>
+<!-- The Head tag is used to create a title of web page, CSS syntax for a web page, and helps in written a JavaScript code. -->
+    <!-- Required Metasets -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="style.css">
+    <!--Title of Web Page-->
+    <title>Greenfield Impex</title>
+</Head>
+<Body>
+<!-- The Body tag is used to display the content on a web page. In this example we do not specify any content or any tag, so in output nothing will display on the web page. -->
+    <!--Start Navigation Bar-->
+    <nav class="navbar navbar-default fixed-top navbar-expand-sm navbar-light bg-light">
+            <a href="index.html" class="navbar-brand mb-0">
+                <img src="https://static6.depositphotos.com/1005993/633/v/450/depositphotos_6338152-stock-illustration-real-estate-logo.jpg" alt="logo of company" class="d-inline-block align-top" width="50" height="50"/>
+                <span class="h2">Greenfield Impex</span>
+            </a>
+            <button type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" class="navbar-toggler" aria-controls="navbarNav" aria-expand="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item active"><a class="nav-link scrollto active" href="#">Home</a></li>
+                    <li class="nav-item active"><a class="nav-link scrollto " href="#AboutUs">About Us</a></li>
+                    <li class="nav-item active"><a class="nav-link scrollto " href="#OurProduct">Our Products</a></li>
+                    <li class="nav-item active"><a class="nav-link scrollto " href="#Contact">Contact</a></li>
+                </ul>
+                  <i class="bi bi-list mobile-nav-toggle"></i> 
+            </div>
+    </nav>
+    <!--End Navigation Bar-->
+
+
+
+
+
+
+    <!--Start Hero-->
+    <div class="hero-image">
+        <div class="hero-text">
+          <h1>Greenfield Impex</h1>
+          <button>Lets Get Started</button>
+        </div>
+    </div>
+    <!--End Hero-->
+
+
+
+
+
+
+
+        <!--Our Products Page main--> 
+        <div class="container1">
+            <p><br><br></p>
+            <section id="Our Products" class= "py-5">
+                <div class = "container2">
+                    <div class = "title text-center ">           
+                        <h2 class = "position-relative d-inline-block"> Our Products</h2>
+                        <br>
+                    </div>
+                </div>
+            </section>
+        
+                
+                <div class = "button-group filter-button-group ">
+                    <div class="text-center">
+                        <button  class = "btn m-2 text-dark active-filter-btn" onclick="filterCat('all')">All</button>
+                        <button  class = "btn m-2 text-dark"  onclick="filterCat('pulses')">Pulses</button>
+                        <button  class = "btn m-2 text-dark"  onclick="filterCat('rice')">Rice</button>
+                        <button  class = "btn m-2 text-dark"  onclick="filterCat('flour')">Flour</button>
+                        <button  class = "btn m-2 text-dark"  onclick="filterCat('otsp')">Other Specials</button>
+                        <button  class = "btn m-2 text-dark"  onclick="filterCat('upit')">Upwas Items</button>
+                    </div>
+                </div>
+                <br>
+               
+                
+                <div class="row d-flex justify-content-around  product-list" id="product-list" >
+                    <div class="col-lg-4 col-md-6 ">
+                        <div class="product-item">
+                            <div class="product-img">
+                                <img src="img/bajri.jpeg" alt="" class="d-block mx-auto img-fluid">
+                            </div>
+                            <div class="product-content text-center py-3">
+                                <span class="d-block fw-bold text-uppercase">Bajri</span>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="col-lg-4 col-md-6 ">
+                        <div class="product-item">
+                            <div class="product-img">
+                                <img src="img/bbwal.jpeg" alt="" class="d-block mx-auto img-fluid">
+                            </div>
+                            <div class="product-content text-center py-3">
+                                <span class="d-block fw-bold text-uppercase">BB Wal</span>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="col-lg-4 col-md-6 ">
+                        <div class="product-item">
+                            <div class="product-img">
+                                <img src="img/black_beans.jpeg" alt="" class="d-block mx-auto img-fluid">
+                            </div>
+                            <div class="product-content text-center py-3">
+                                <span class="d-block fw-bold text-uppercase">Black Beans</span>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="col-lg-4 col-md-6 ">
+                        <div class="product-item">
+                            <div class="product-img">
+                                <img src="img/chana_dal.jpeg" alt="" class="d-block mx-auto img-fluid">
+                            </div>
+                            <div class="product-content text-center py-3">
+                                <span class="d-block fw-bold text-uppercase">Chana Dal</span>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="col-lg-4 col-md-6 ">
+                        <div class="product-item">
+                            <div class="product-img">
+                                <img src="img/chana_green.jpeg" alt="" class="d-block mx-auto img-fluid">
+                            </div>
+                            <div class="product-content text-center py-3">
+                                <span class="d-block fw-bold text-uppercase">Chana Green</span>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="col-lg-4 col-md-6 ">
+                        <div class="product-item">
+                            <div class="product-img">
+                                <img src="img/chana_mosambi.jpeg" alt="" class="d-block mx-auto img-fluid">
+                            </div>
+                            <div class="product-content text-center py-3">
+                                <span class="d-block fw-bold text-uppercase">Chana Mosambi</span>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="col-lg-4 col-md-6 ">
+                        <div class="product-item">
+                            <div class="product-img">
+                                <img src="img/chana_small.jpeg" alt="" class="d-block mx-auto img-fluid">
+                            </div>
+                            <div class="product-content text-center py-3">
+                                <span class="d-block fw-bold text-uppercase">Chana Small</span>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="col-lg-4 col-md-6 ">
+                        <div class="product-item">
+                            <div class="product-img">
+                                <img src="img/chawli_black_eyed.jpeg" alt="" class="d-block mx-auto img-fluid">
+                            </div>
+                            <div class="product-content text-center py-3">
+                                <span class="d-block fw-bold text-uppercase">Chawli Black Eyed</span>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="col-lg-4 col-md-6 ">
+                        <div class="product-item">
+                            <div class="product-img">
+                                <img src="img/chawli_brown_eyed.jpeg" alt="" class="d-block mx-auto img-fluid">
+                            </div>
+                            <div class="product-content text-center py-3">
+                                <span class="d-block fw-bold text-uppercase">Chawli Brown Eyed</span>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="col-lg-4 col-md-6 ">
+                        <div class="product-item">
+                            <div class="product-img">
+                                <img src="img/chawli_red.jpeg" alt="" class="d-block mx-auto img-fluid">
+                            </div>
+                            <div class="product-content text-center py-3">
+                                <span class="d-block fw-bold text-uppercase">Chawli Red</span>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="col-lg-4 col-md-6">
+                        <div class="product-item">
+                            <div class="product-img">
+                                <img src="img/chawli_small.jpeg" alt="" class="d-block mx-auto img-fluid">
+                            </div>
+                            <div class="product-content text-center py-3">
+                                <span class="d-block fw-bold text-uppercase">Chawli Small</span>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="col-lg-4 col-md-6 ">
+                        <div class="product-item">
+                            <div class="product-img">
+                                <img src="img/groundnut.jpeg" alt="" class="d-block mx-auto img-fluid">
+                            </div>
+                            <div class="product-content text-center py-3">
+                                <span class="d-block fw-bold text-uppercase">Groundnut</span>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="col-lg-4 col-md-6 ">
+                        <div class="product-item">
+                            <div class="product-img">
+                                <img src="img/gujarat_17_rice.jpeg" alt="" class="d-block mx-auto img-fluid">
+                            </div>
+                            <div class="product-content text-center py-3">
+                                <span class="d-block fw-bold text-uppercase">Gujarat 17 Rice</span>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="col-lg-4 col-md-6 ">
+                        <div class="product-item">
+                            <div class="product-img">
+                                <img src="img/idli_rice.jpeg" alt="" class="d-block mx-auto img-fluid">
+                            </div>
+                            <div class="product-content text-center py-3">
+                                <span class="d-block fw-bold text-uppercase">Idli Rice</span>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="col-lg-4 col-md-6 ">
+                        <div class="product-item">
+                            <div class="product-img">
+                                <img src="img/jowar.jpeg" alt="" class="d-block mx-auto img-fluid">
+                            </div>
+                            <div class="product-content text-center py-3">
+                                <span class="d-block fw-bold text-uppercase">Jowar</span>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="col-lg-4 col-md-6 ">
+                        <div class="product-item">
+                            <div class="product-img">
+                                <img src="img/kabuli_chana.jpeg" alt="" class="d-block mx-auto img-fluid">
+                            </div>
+                            <div class="product-content text-center py-3">
+                                <span class="d-block fw-bold text-uppercase">Kabuli Chana</span>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="col-lg-4 col-md-6 ">
+                        <div class="product-item">
+                            <div class="product-img">
+                                <img src="img/kadva_val.jpeg" alt="" class="d-block mx-auto img-fluid">
+                            </div>
+                            <div class="product-content text-center py-3">
+                                <span class="d-block fw-bold text-uppercase">Kadva Wal</span>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="col-lg-4 col-md-6 ">
+                        <div class="product-item">
+                            <div class="product-img">
+                                <img src="img/kali_much_rice.jpeg" alt="" class="d-block mx-auto img-fluid">
+                            </div>
+                            <div class="product-content text-center py-3">
+                                <span class="d-block fw-bold text-uppercase">Kali Much Rice</span>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="col-lg-4 col-md-6 ">
+                        <div class="product-item">
+                            <div class="product-img">
+                                <img src="img/masoor_dal.jpeg" alt="" class="d-block mx-auto img-fluid">
+                            </div>
+                            <div class="product-content text-center py-3">
+                                <span class="d-block fw-bold text-uppercase">Masoor Dal</span>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="col-lg-4 col-md-6 ">
+                        <div class="product-item">
+                            <div class="product-img">
+                                <img src="img/masoor_whole.jpeg" alt="" class="d-block mx-auto img-fluid">
+                            </div>
+                            <div class="product-content text-center py-3">
+                                <span class="d-block fw-bold text-uppercase">Masoor Whole</span>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="col-lg-4 col-md-6 ">
+                        <div class="product-item">
+                            <div class="product-img">
+                                <img src="img/moong_dal.jpeg" alt="" class="d-block mx-auto img-fluid">
+                            </div>
+                            <div class="product-content text-center py-3">
+                                <span class="d-block fw-bold text-uppercase">Moong Dal</span>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="col-lg-4 col-md-6 ">
+                        <div class="product-item">
+                            <div class="product-img">
+                                <img src="img/moong_whole.jpeg" alt="" class="d-block mx-auto img-fluid">
+                            </div>
+                            <div class="product-content text-center py-3">
+                                <span class="d-block fw-bold text-uppercase">Moong Whole</span>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="col-lg-4 col-md-6 ">
+                        <div class="product-item">
+                            <div class="product-img">
+                                <img src="img/moth_whole_rajasthan.jpeg" alt="" class="d-block mx-auto img-fluid">
+                            </div>
+                            <div class="product-content text-center py-3">
+                                <span class="d-block fw-bold text-uppercase">Moth Whole Rajasthan</span>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="col-lg-4 col-md-6 ">
+                        <div class="product-item">
+                            <div class="product-img">
+                                <img src="img/nachni.jpeg" alt="" class="d-block mx-auto img-fluid">
+                            </div>
+                            <div class="product-content text-center py-3">
+                                <span class="d-block fw-bold text-uppercase">Nachni</span>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="col-lg-4 col-md-6 ">
+                        <div class="product-item">
+                            <div class="product-img">
+                                <img src="img/papdi_wal.jpeg" alt="" class="d-block mx-auto img-fluid">
+                            </div>
+                            <div class="product-content text-center py-3">
+                                <span class="d-block fw-bold text-uppercase">Papdi Wal</span>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="col-lg-4 col-md-6 ">
+                        <div class="product-item">
+                            <div class="product-img">
+                                <img src="img/rajma_red_big.jpeg" alt="" class="d-block mx-auto img-fluid">
+                            </div>
+                            <div class="product-content text-center py-3">
+                                <span class="d-block fw-bold text-uppercase">Rajma Red (Big)</span>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="col-lg-4 col-md-6 ">
+                        <div class="product-item">
+                            <div class="product-img">
+                                <img src="img/rajma_red_sharmili.jpeg" alt="" class="d-block mx-auto img-fluid">
+                            </div>
+                            <div class="product-content text-center py-3">
+                                <span class="d-block fw-bold text-uppercase">Rajma Red (Sharmili)</span>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="col-lg-4 col-md-6 ">
+                        <div class="product-item">
+                            <div class="product-img">
+                                <img src="img/rajma_speckled.jpeg" alt="" class="d-block mx-auto img-fluid">
+                            </div>
+                            <div class="product-content text-center py-3">
+                                <span class="d-block fw-bold text-uppercase">Rajma Speckled</span>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="col-lg-4 col-md-6 ">
+                        <div class="product-item">
+                            <div class="product-img">
+                                <img src="img/sabudana.jpeg" alt="" class="d-block mx-auto img-fluid">
+                            </div>
+                            <div class="product-content text-center py-3">
+                                <span class="d-block fw-bold text-uppercase">Sabudana</span>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="col-lg-4 col-md-6 ">
+                        <div class="product-item">
+                            <div class="product-img">
+                                <img src="img/small_matki.jpeg" alt="" class="d-block mx-auto img-fluid">
+                            </div>
+                            <div class="product-content text-center py-3">
+                                <span class="d-block fw-bold text-uppercase">Small Matki</span>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="col-lg-4 col-md-6 ">
+                        <div class="product-item">
+                            <div class="product-img">
+                                <img src="img/soyabean.jpeg" alt="" class="d-block mx-auto img-fluid">
+                            </div>
+                            <div class="product-content text-center py-3">
+                                <span class="d-block fw-bold text-uppercase">Soyabean</span>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="col-lg-4 col-md-6 ">
+                        <div class="product-item">
+                            <div class="product-img">
+                                <img src="img/steamed_basmati_1401.jpeg" alt="" class="d-block mx-auto img-fluid">
+                            </div>
+                            <div class="product-content text-center py-3">
+                                <span class="d-block fw-bold text-uppercase">Steamed Basmati - 1401</span>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="col-lg-4 col-md-6 ">
+                        <div class="product-item">
+                            <div class="product-img">
+                                <img src="img/steamed_sona_masoori_1.jpeg" alt="" class="d-block mx-auto img-fluid">
+                            </div>
+                            <div class="product-content text-center py-3">
+                                <span class="d-block fw-bold text-uppercase">Steamed Sona Masoori 1</span>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="col-lg-4 col-md-6 ">
+                        <div class="product-item">
+                            <div class="product-img">
+                                <img src="img/surti_wal.jpeg" alt="" class="d-block mx-auto img-fluid">
+                            </div>
+                            <div class="product-content text-center py-3">
+                                <span class="d-block fw-bold text-uppercase">Surti Wal</span>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="col-lg-4 col-md-6 ">
+                        <div class="product-item">
+                            <div class="product-img">
+                                <img src="img/toor_dal_latur.jpeg" alt="" class="d-block mx-auto img-fluid">
+                            </div>
+                            <div class="product-content text-center py-3">
+                                <span class="d-block fw-bold text-uppercase">Toor Dal Latur</span>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="col-lg-4 col-md-6 ">
+                        <div class="product-item">
+                            <div class="product-img">
+                                <img src="img/toor_dal_gujarat.jpeg" alt="" class="d-block mx-auto img-fluid">
+                            </div>
+                            <div class="product-content text-center py-3">
+                                <span class="d-block fw-bold text-uppercase">Toor Dal Gujarat</span>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="col-lg-4 col-md-6 ">
+                        <div class="product-item">
+                            <div class="product-img">
+                                <img src="img/urad_dal.jpeg" alt="" class="d-block mx-auto img-fluid">
+                            </div>
+                            <div class="product-content text-center py-3">
+                                <span class="d-block fw-bold text-uppercase">Urad Dal</span>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="col-lg-4 col-md-6 ">
+                        <div class="product-item">
+                            <div class="product-img">
+                                <img src="img/urad_gota.jpeg" alt="" class="d-block mx-auto img-fluid">
+                            </div>
+                            <div class="product-content text-center py-3">
+                                <span class="d-block fw-bold text-uppercase">Urad Gota</span>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="col-lg-4 col-md-6 ">
+                        <div class="product-item">
+                            <div class="product-img">
+                                <img src="img/urad_split.jpeg" alt="" class="d-block mx-auto img-fluid">
+                            </div>
+                            <div class="product-content text-center py-3">
+                                <span class="d-block fw-bold text-uppercase">Urad Split</span>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="col-lg-4 col-md-6 ">
+                        <div class="product-item">
+                            <div class="product-img">
+                                <img src="img/urad_whole.jpeg" alt="" class="d-block mx-auto img-fluid">
+                            </div>
+                            <div class="product-content text-center py-3">
+                                <span class="d-block fw-bold text-uppercase">Urad Whole</span>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="col-lg-4 col-md-6 ">
+                        <div class="product-item">
+                            <div class="product-img">
+                                <img src="img/vatana_black.jpeg" alt="" class="d-block mx-auto img-fluid">
+                            </div>
+                            <div class="product-content text-center py-3">
+                                <span class="d-block fw-bold text-uppercase">Vatana Black</span>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="col-lg-4 col-md-6 ">
+                        <div class="product-item">
+                            <div class="product-img">
+                                <img src="img/vatana_green.jpeg" alt="" class="d-block mx-auto img-fluid">
+                            </div>
+                            <div class="product-content text-center py-3">
+                                <span class="d-block fw-bold text-uppercase">Vatana Green</span>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="col-lg-4 col-md-6 ">
+                        <div class="product-item">
+                            <div class="product-img">
+                                <img src="img/vatana_white.jpeg" alt="" class="d-block mx-auto img-fluid">
+                            </div>
+                            <div class="product-content text-center py-3">
+                                <span class="d-block fw-bold text-uppercase">Vatana White</span>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="col-lg-4 col-md-6 ">
+                        <div class="product-item">
+                            <div class="product-img">
+                                <img src="img/wada_surti_kolam.jpeg" alt="" class="d-block mx-auto img-fluid">
+                            </div>
+                            <div class="product-content text-center py-3">
+                                <span class="d-block fw-bold text-uppercase">Wada Surti Kolam</span>
+                            </div>
+                        </div>
+                    </div>
+        
+        
+        
+        
+        
+        
+        
+                </div>
+                
+        
+            </div>         
+                    
+                            
+                            
+                            
+        
+    
+          <!-- bootstrap js -->
+          <script src = "js/bootstrap.bundle.min.js"></script>
+          <!-- custom js -->
+          <script src = "js_1/script.js"></script>
+
+    <!--End of Our Products-->
+
+    
+
+
+
+    
+
+    <!--Start Contact Us-->
+    <section id="Contact">
+    <div class="contactUs">
+        <div class="title">
+            <h2>Contact Us</h2>
+        </div>
+        <div class="box">
+            <!--Form-->
+            <div class="comtact form">
+                <h3>Send A Message</h3>
+                <form method="post" action="connect.php">
+                    <div class="formBox">
+                        <div class="row50">
+
+                            <div class="inputBox">
+                                <span>First Name</span>
+                                <input type="text" placeholder="Enter your first name" id="firstName" name="firstName"/>
+                            </div>
+
+                            <div class="inputBox">
+                                <span>Last Name</span>
+                                <input type="text" placeholder="Enter your last name" id="lastName" name="lastName"/>
+                            </div>
+
+                        </div>
+
+                        <div class="row50">
+
+                            <div class="inputBox">
+                                <span>Email</span>
+                                <input type="text" placeholder="Enter your email" id="emailId" name="emailId"/>
+                            </div>
+
+                            <div class="inputBox">
+                                <span>Mobile Number</span>
+                                <input type="text" placeholder="Enter your mobile number" id="mobileNumber" name="mobileNumber"/>
+                            </div>
+
+                        </div>
+
+                        <div class="row100">
+                            <div class="inputBox">
+                                <span>Message</span>
+                                <textarea placeholder="Write your message here" id="message" name="messageSend"></textarea>
+                            </div>
+                        </div>
+
+                        <div class="row100">
+                            <div class="inputBox">
+                                <input type="submit" value="Send">
+                            </div>
+                        </div>
+
+                    </div>
+                </form>
+            </div>
+            <!--Info Box-->
+            <div class="contact info">
+                <h3>Contact Info</h3>
+                <div class="infoBox">
+                    <div>
+                        <span><i class="fas fa-home mr-3"></i></span>
+                        <p>Address line 1<br>Address line 2</p>
+                    </div>
+                    <div>
+                        <span><i class="fas fa-envelope mr-3"></i></span>
+                        <a href="mailto:emailaddress">Email adress</a>
+                    </div>
+                    <div>
+                        <span><i class="fas fa-phone mr-3"></i></span>
+                        <a href="tel:mobile number">Mobile Number</a>
+                    </div>
+                    <!--Social Media Links-->
+                    <ul class="sci">
+                        <li><a href="#"><i class="fab fa-instagram mr-3"></i></a></li>
+                        <li><a href="#"><i class="fab fa-facebook mr-3"></i></a></li>
+                        <li><a href="#"><i class="fab fa-twitter mr-3"></i></a></li>
+                        <li><a href="#"><i class="fab fa-linkedin mr-3"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <!--Map-->
+            <div class="contact map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3770.792256859403!2d72.89772841421271!3d19.07286935702876!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c627a20bcaa9%3A0xb2fd3bcfeac0052a!2sK.%20J.%20Somaiya%20College%20of%20Engineering!5e0!3m2!1sen!2sin!4v1668710969410!5m2!1sen!2sin"  style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>            
+        </div>
+    </div>
+    </section>
+    <!--End Contact Us-->
+
+    <!--Start Footer -->
+    <footer class="bg-success text-white pt-5 pb-4">
+        <div class="container text-center text-md-left">
+
+            <div class="row text-center text-md-left">
+
+                <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                    <h5 class="text uppercase mb-3 font-weight-bold">Greenfield Impex</h5>
+                    <p>What started out as a humble business venture in 1974 has successfully evolved into a leading agro-commodity trading organisation. We have decades of trading experience in understanding the nuances of this business.</p>
+                </div>
+
+                <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+                    <h5 class="text uppercase mb-4 font-weight-bold">USEFUL LINKS</h5>
+                    <p>
+                        <a href="#" class="text-white" style="text-decoration: none;">Home</a>
+                    </p>
+                    <p>
+                        <a href="#AboutUs" class="text-white" style="text-decoration: none;">About Us</a>
+                    </p>
+                    <p>
+                        <a href="#" class="text-white" style="text-decoration: none;">Our Products</a>
+                    </p>
+                    <p>
+                        <a href="#Contact" class="text-white" style="text-decoration: none;">Contact Us</a>
+                    </p>
+                </div>
+
+                <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+                    <h5 class="text uppercase mb-4 font-weight-bold">CONTACT US</h5>
+                    <p>
+                        <i class="fas fa-home mr-3"></i> Address
+                    </p>
+                    <p>
+                        <i class="fas fa-envelope mr-3"></i> Email-Id
+                    </p>
+                    <p>
+                        <i class="fas fa-phone mr-3"></i> Phone Number
+                    </p>
+                    <p>
+                        <i class="fas fa-phone mr-3"></i> Phone Number 2
+                    </p>
+                </div>
+
+                <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+                    <h5 class="text uppercase mb-4 font-weight-bold">Social Media</h5>
+                    <p>
+                        <a href="#" class="text-white" style="text-decoration: none;">
+                        <i class="fab fa-instagram mr-3"></i> Instagram
+                        </a>
+                    </p>
+                    <p>
+                        <a href="#" class="text-white" style="text-decoration: none;">
+                        <i class="fab fa-facebook mr-3"></i> Facebook
+                        </a>
+                    </p>
+                    <p>
+                        <a href="#" class="text-white" style="text-decoration: none;">
+                        <i class="fab fa-twitter mr-3"></i> Twitter
+                        </a>
+                    </p>
+                    <p>
+                        <a href="#" class="text-white" style="text-decoration: none;">
+                        <i class="fab fa-linkedin mr-3"></i> Linkedin
+                        </a>
+                    </p>
+                    
+                </div>
+            </div>
+
+            <hr class="mb-4">
+
+            <div class="row align-items-center">
+                <div class="col md-7 lg-8">
+                    <p>Copyright &copy; <script>document.write(new Date().getFullYear());</script> All rights reserved by Greenfield Impex</p>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+    <!--End Footer-->
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+ 
+</Body>
+</Html>
+
+ 
