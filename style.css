@@ -1,13 +1,4 @@
-.box {
-  display: flex;
-  top: 80px;
-  position: relative;
-  padding-top: 30px;
-  border-top: thin solid black;
-  border-bottom: thin solid black;
-  border-right: thin solid black;
-  border-left: thin solid black;
-}
+
 
 .box1 {
   padding-left: 300px;
@@ -413,6 +404,7 @@ body
     padding:20px;
 }
 .box{
+    
     grid-template-columns: 1fr;
     grid-template-rows: auto;
     grid-template-areas: 
@@ -446,4 +438,27 @@ footer
     bottom: 0;
     width: 100%;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
