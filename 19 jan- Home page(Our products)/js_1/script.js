@@ -284,10 +284,35 @@ var data=[
     category:"otsp"
   },
 
+  {
+    img:"img/empp.jpg",
+    title:" ",
+    category:"pulses"
+  },
 
+  {
+    img:"img/empr.jpg",
+    title:" ",
+    category:"rice"
+  },
 
+  {
+    img:"img/empf.jpg",
+    title:" ",
+    category:"flour"
+  },
 
+  {
+    img:"img/empos.jpg",
+    title:" ",
+    category:"otsp"
+  },
 
+  {
+    img:"img/empui.jpg",
+    title:" ",
+    category:"upit"
+  },
 
 ]
 
@@ -321,3 +346,6 @@ function filterCat(cat){
 }
 
 filterCat("pulses")
+
+
+
