@@ -1,37 +1,26 @@
-//   // var $grid = $('#product-list').isotope({
-//   //   // layoutMode: "fitRows"
-//   // });
-// // filter items on button click
-// $('.filter-button-group').on( 'click', 'button', function() {
-//   var filterValue = $(this).attr('data-filter');
-//   console.log(filterValue)
-//   $grid.isotope({ filter: filterValue });
-// });
+// Add active class to the current button (highlight it)
+let prevButton = document.getElementById("pl");
 
+const wrapper = document.getElementById("wrapper");
 
-// var data={
-//   "allCategories":[
-//     {
-//     img:"Img/Bajri.jpeg",
-//     title:"Bajri"
-    
-//     },
-//     {
-//       img:"Img/BBWal.jpeg",
-//       title:"BB Wal"
-//     },
-//     {
-//       img:"Img/BBWal.jpeg",
-//       title:"BB Wal"
-//     }
-//   ],
-//   "pulses":[
-//     {
-//       img:"Img/BBWal.jpeg",
-//       title:"BB Wal"
-//     }
-//   ]
-// }
+wrapper.addEventListener('click', (e) => {
+
+const isButton = e.target.nodeName === 'BUTTON';    
+
+if (!isButton)
+{
+return;
+}
+
+e.target.classList.add('active'); // Add .active CSS Class
+
+if(prevButton !== null) {
+prevButton.classList.remove('active');  // Remove .active CSS Class
+}
+
+ prevButton = e.target;
+
+});
 
 var data=[
   {
@@ -58,11 +47,6 @@ var data=[
     category:"pulses"
   },
 
-  {
-    img:"img/chana_green.jpeg",
-    title:"Chana Green",
-    category:"pulses"
-  },
 
   {
     img:"img/chana_mosambi.jpeg",
@@ -71,32 +55,8 @@ var data=[
   },
 
   {
-    img:"img/chana_small.jpeg",
-    title:"Chana Small",
-    category:"pulses"
-  },
-
-  {
     img:"img/chawli_black_eyed.jpeg",
     title:"Chawli Black Eyed",
-    category:"pulses"
-  },
-
-  {
-    img:"img/chawli_brown_eyed.jpeg",
-    title:"Chawli Brown Eyed",
-    category:"pulses"
-  },
-
-  {
-    img:"img/chawli_red.jpeg",
-    title:"Chawli Red",
-    category:"pulses"
-  },
-
-  {
-    img:"img/chawli_small.jpeg",
-    title:"Chawli Small",
     category:"pulses"
   },
 
@@ -136,11 +96,11 @@ var data=[
     category:"pulses"
   },
 
-  {
-    img:"img/kali_much_rice.jpeg",
-    title:"Kali Much Rice",
-    category:"rice"
-  },
+  // {
+  //   img:"img/kali_much_rice.jpeg",
+  //   title:"Kali Much Rice",
+  //   category:"rice"
+  // },
 
   {
     img:"img/masoor_dal.jpeg",
@@ -184,11 +144,6 @@ var data=[
     category:"pulses"
   },
 
-  {
-    img:"img/rajma_red_big.jpeg",
-    title:"Rajma Red (Big)",
-    category:"pulses"
-  },
 
   {
     img:"img/rajma_red_sharmili.jpeg",
@@ -197,21 +152,9 @@ var data=[
   },
 
   {
-    img:"img/rajma_speckled.jpeg",
-    title:"Rajma Speckled",
-    category:"pulses"
-  },
-
-  {
     img:"img/sabudana.jpeg",
     title:"Sabudana",
     category:"upit"
-  },
-
-  {
-    img:"img/small_matki.jpeg",
-    title:"Small Matki",
-    category:"pulses"
   },
 
   {
@@ -233,20 +176,8 @@ var data=[
   },
 
   {
-    img:"img/surti_wal.jpeg",
-    title:"Surti Wal",
-    category:"pulses"
-  },
-
-  {
     img:"img/toor_dal_latur.jpeg",
     title:"Toor Dal Latur",
-    category:"pulses"
-  },
-
-  {
-    img:"img/toor_dal_gujarat.jpeg",
-    title:"Toor Dal Gujarat",
     category:"pulses"
   },
 
@@ -256,11 +187,6 @@ var data=[
     category:"pulses"
   },
 
-  {
-    img:"img/urad_gota.jpeg",
-    title:"Urad Gota",
-    category:"pulses"
-  },
 
   {
     img:"img/urad_split.jpeg",
@@ -281,23 +207,112 @@ var data=[
   },
 
   {
-    img:"img/vatana_green.jpeg",
-    title:"Vatana Green",
-    category:"pulses"
+    img:"img/daliya_jada.jpeg",
+    title:"Daliya Jada",
+    category:"flour"
   },
 
   {
-    img:"img/vatana_white.jpeg",
-    title:"Vatana White",
-    category:"pulses"
+    img:"img/idli_rawa.jpeg",
+    title:"Idli Rawa",
+    category:"flour"
   },
 
   {
-    img:"img/wada_surti_kolam.jpeg",
-    title:"Wada Surti Kolam",
+    img:"img/daliya_barik.jpeg",
+    title:"Daliya (Lapsi) Barik",
+    category:"flour"
+  },
+
+  {
+    img:"img/kesari_rawa.jpeg",
+    title:"Kesari Rawa",
+    category:"flour"
+  },
+
+  {
+    img:"img/barik_rawa.jpeg",
+    title:"Barik Rawa",
+    category:"flour"
+  },
+
+  {
+    img:"img/ambemohar_rice.jpeg",
+    title:"Ambemohar - Jeera Kalasa Rice",
     category:"rice"
   },
 
+  // {
+  //   img:"img/pooni_boilrice.jpeg",
+  //   title:"Pooni Boil Rice",
+  //   category:"rice"
+  // },
+
+  {
+    img:"img/red_mata_rice.jpeg",
+    title:"Red Mata Rice",
+    category:"rice"
+  },
+
+  {
+    img:"img/kurmura.jpeg",
+    title:"Kurmura",
+    category:"otsp"
+  },
+
+  {
+    img:"img/soya_wadi.jpeg",
+    title:"Soya Wadi",
+    category:"otsp"
+  },
+
+  {
+    img:"img/bhagar.jpeg",
+    title:"Bhagar",
+    category:"upit"
+  },
+
+  {
+    img:"img/barik_poha.jpeg",
+    title:"Barik poha",
+    category:"otsp"
+  },
+
+  {
+    img:"img/jada_poha.jpeg",
+    title:"Jada poha",
+    category:"otsp"
+  },
+
+  {
+    img:"img/empp.jpg",
+    title:" ",
+    category:"pulses"
+  },
+
+  {
+    img:"img/empr.jpg",
+    title:" ",
+    category:"rice"
+  },
+
+  {
+    img:"img/empf.jpg",
+    title:" ",
+    category:"flour"
+  },
+
+  {
+    img:"img/empos.jpg",
+    title:" ",
+    category:"otsp"
+  },
+
+  {
+    img:"img/empui.jpg",
+    title:" ",
+    category:"upit"
+  },
 
 ]
 
@@ -306,11 +321,7 @@ function filterCat(cat){
   var productlist=document.getElementById("product-list")
   console.log(cat)
   let displayData=[];
-  let category=""
-  if(cat=="all"){
-    displayData=data;
-  }
-  else if(cat=="pulses"){
+ if(cat=="pulses"){
     displayData=data.filter((item)=>item.category=="pulses")
   }
   else if(cat=="rice"){
@@ -333,4 +344,8 @@ function filterCat(cat){
     productlist.innerHTML+=`<div class='col-lg-4 col-md-6 '> <div class='product-item'><div class='product-img'><img src=${displayData[i].img}  class='d-block mx-auto img-fluid'></div> <div class='product-content text-center py-3'><span class='d-block fw-bold text-uppercase'>${displayData[i].title}</span></div></div></div>`
   }
 }
+
+filterCat("pulses")
+
+
 
