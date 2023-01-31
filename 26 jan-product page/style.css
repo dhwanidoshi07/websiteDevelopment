@@ -180,7 +180,7 @@
   padding:10px;
   }
   .hero-image {
-  background-color: seagreen;
+  background-image: url("img/bgheader.jpg");
   /* Set a specific height */
   height: 75%;
   /* Position and center the image to scale nicely on all screens */
@@ -189,6 +189,7 @@
   background-size: cover;
   position: relative;
   }
+
   .hero-text {
   text-align: left;
   position: absolute;
@@ -197,20 +198,28 @@
   transform: translate(-50%, -50%);
   color: white;
   }
+
+  .heroheader{
+    font-size: 70px;
+  }
+
   .hero-text button {
       border: none;
       outline: 0;
       display: inline-block;
       padding: 10px 99px;
-      color: seagreen;
-      background-color: #ddd;
+      color: white;
+      background-color: var(--seagreen);
       text-align: center;
       cursor: pointer;
-      position: absolute;
+      position: relative;
+      font-size: 20px;
+      
+
   }
     
   .hero-text button:hover {
-      background-color: #555;
+      background-color: #767a76;
       color: white;
   }
   
@@ -534,7 +543,12 @@ body{
 
 .container1 .product-img img{                 
     width: 350px;
-    
+}
+
+.container1 .product-list{
+  margin-left: 30px;
+  margin-right: 30px;
+  
 }
 
 
@@ -589,11 +603,6 @@ body{
   }
   
 
-  .product-list{
-    margin-left: 50px;
-    margin-right: 50px;
-  }
-
 
   
   
@@ -616,29 +625,45 @@ html{
     font-family: Verdana;
 }
 
-
-.gotopbtn{
+  .gotopbtn{
     position: fixed;
     width: 50px;
     height: 50px;
-    background: var(--lightersg);
-    bottom: 40px;
-    right: 50px;
-  
+    background: white;
+    bottom: 16px;
+    right: 2px;
     text-decoration: none;
     text-align: center;
     line-height: 50px;
-    color: white;
+    color: var(--seagreen);
     font-size: 22px;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: var(--seagreen);
+    
     
   }
+
+.gotopbtn:hover{
+  background-color: #d7dcd9!important;
+ color: var(--seagreen)!important;
+ border-color: var(--seagreen)!important;
+}
+
+  @media only screen and (max-width: 600px) {
+    .scroll {
+      display: none;
+    }
+  }
+
+
 
 .product .box-container{
     display: flex;
     flex-wrap: wrap;
     gap:1.5rem;
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 55px;
+    margin-right: 55px;
   }
   
   .product .box-container .boxp{
@@ -653,7 +678,7 @@ html{
   }
   
   .product .box-container .boxp img{
-    height: 13.5rem;
+    height: 13.2rem;
   }
   
   
@@ -695,4 +720,6 @@ html{
   .product .box-container .boxp .btn{
     display: block;
   }
+
+  
   
