@@ -82,7 +82,7 @@
 .right a {
   text-decoration: none;
   text-transform: uppercase;
-  background-color: green;
+  background-color: var(--seagreen);
   color: black;
   padding: 10px 30px;
   display: inline-block;

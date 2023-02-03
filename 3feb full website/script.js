@@ -1,9 +1,23 @@
 
+// *********************
+// This Code is for only the floating card in right bottom corner
+// **********************
 
 
 
+// const WebCifarIcon = document.querySelector("#webCifar-icon");
+// const WebCifarEl = document.querySelector("#webCifar");
+// const close = WebCifarEl.querySelector(".close");
+// const youtubeLink = document.querySelector(".youtubeLink");
 
+// WebCifarIcon.addEventListener("click", () => {
+//   WebCifarEl.classList.add("active");
+// });
+// close.addEventListener("click", () => {
+//   WebCifarEl.classList.remove("active");
+// });
 
+// youtubeLink.setAttribute("href", "https://youtu.be/_HTL0XSMcRQ");
 
 
 
@@ -121,29 +135,29 @@ var data=[
   //   category:"rice"
   // },
 
-  {
-    img:"img/masoor_dal.jpeg",
-    title:"Masoor Dal",
-    category:"pulses"
-  },
+  // {
+  //   img:"img/masoor_dal.jpeg",
+  //   title:"Masoor Dal",
+  //   category:"pulses"
+  // },
 
-  {
-    img:"img/masoor_whole.jpeg",
-    title:"Masoor Whole",
-    category:"pulses"
-  },
+  // {
+  //   img:"img/masoor_whole.jpeg",
+  //   title:"Masoor Whole",
+  //   category:"pulses"
+  // },
 
-  {
-    img:"img/moong_dal.jpeg",
-    title:"Moong Dal",
-    category:"pulses"
-  },
+  // {
+  //   img:"img/moong_dal.jpeg",
+  //   title:"Moong Dal",
+  //   category:"pulses"
+  // },
 
-  {
-    img:"img/moong_whole.jpeg",
-    title:"Moong Whole",
-    category:"pulses"
-  },
+  // {
+  //   img:"img/moong_whole.jpeg",
+  //   title:"Moong Whole",
+  //   category:"pulses"
+  // },
 
   {
     img:"img/moth_whole_rajasthan.jpeg",
@@ -157,11 +171,11 @@ var data=[
     category:"otsp"
   },
 
-  {
-    img:"img/papdi_wal.jpeg",
-    title:"Papdi Wal",
-    category:"pulses"
-  },
+  // {
+  //   img:"img/papdi_wal.jpeg",
+  //   title:"Papdi Wal",
+  //   category:"pulses"
+  // },
 
 
   {
@@ -194,36 +208,36 @@ var data=[
     category:"rice"
   },
 
-  {
-    img:"img/toor_dal_latur.jpeg",
-    title:"Toor Dal Latur",
-    category:"pulses"
-  },
+  // {
+  //   img:"img/toor_dal_latur.jpeg",
+  //   title:"Toor Dal Latur",
+  //   category:"pulses"
+  // },
 
-  {
-    img:"img/urad_dal.jpeg",
-    title:"Urad Dal",
-    category:"pulses"
-  },
+  // {
+  //   img:"img/urad_dal.jpeg",
+  //   title:"Urad Dal",
+  //   category:"pulses"
+  // },
 
 
-  {
-    img:"img/urad_split.jpeg",
-    title:"Urad Split",
-    category:"pulses"
-  },
+  // {
+  //   img:"img/urad_split.jpeg",
+  //   title:"Urad Split",
+  //   category:"pulses"
+  // },
 
-  {
-    img:"img/urad_whole.jpeg",
-    title:"Urad Whole",
-    category:"pulses"
-  },
+  // {
+  //   img:"img/urad_whole.jpeg",
+  //   title:"Urad Whole",
+  //   category:"pulses"
+  // },
 
-  {
-    img:"img/vatana_black.jpeg",
-    title:"Vatana Black",
-    category:"pulses"
-  },
+  // {
+  //   img:"img/vatana_black.jpeg",
+  //   title:"Vatana Black",
+  //   category:"pulses"
+  // },
 
   {
     img:"img/daliya_jada.jpeg",
