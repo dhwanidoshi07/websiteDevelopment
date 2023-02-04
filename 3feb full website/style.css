@@ -456,11 +456,13 @@ a {
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
+  
+
   }
 
   .heroheader{
     font-size: 70px;
-    font-family: 'Wide Latin';
+    font-family: 'Courgette';
   }
 
   .hero-text button {
@@ -469,13 +471,11 @@ a {
       display: inline-block;
       padding: 10px 99px;
       color: white;
-      background-color: var(--seagreen);
+      background-color: seagreen;
       text-align: center;
       cursor: pointer;
       position: relative;
       font-size: 20px;
-      
-
   }
     
   .hero-text button:hover {
